@@ -1,0 +1,64 @@
+
+*,html {
+    font-size: 16px;
+    box-sizing: border-box;
+}
+body{
+    padding:0;
+    margin: 0 ;
+}
+
+.hero {
+background-color:rgb(240, 234, 223) ;
+font-size: 18px;
+padding: 20px 80px 20px 80px;
+margin-bottom: 0;
+}
+
+.hero h1 {
+    font-size: 20px;
+    color: orange;
+
+}
+.hero p {
+    font-size: 18px;
+    word-spacing:8px;
+    line-height: 20px;
+    color: #8888;
+}
+.navbar1 {
+    padding:  0 380px 0 40px;
+    font-size: 10px;
+    overflow: hidden;
+}
+.navbar1, select#countries {
+    border: 1px solid orange;
+
+}
+select#countries {
+    border-radius: 8px;
+    
+}
+.navbar1 .one {
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+}
+li.help button.help-center a {
+    display: block;
+
+
+}
+.navbar1 .info{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height .5s;
+}
+.navbar1 ul li {
+    list-style: none;
+    font-size: 14px;
+    
+}
+.navbar1 option{
+    font-size: 16px;
+}
