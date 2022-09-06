@@ -1,7 +1,8 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
 *,html {
     font-size: 16px;
     box-sizing: border-box;
+    font-family: "Montserrat",sans-serif;
 }
 body{
     padding:0;
@@ -17,7 +18,7 @@ margin-bottom: 0;
 
 .hero h1 {
     font-size: 20px;
-    color: orange;
+    color: rgb(255, 85, 0);
 
 }
 .hero p {
@@ -36,13 +37,32 @@ margin-bottom: 0;
 
 }
 select#countries {
-    border-radius: 8px;
+    border-radius: 12px;
+    padding-left: 25px;
+    width: 50px;
+    height: 30px;
+    background-color:rgb(240, 234, 223);
+    
+} 
+ select option  {
+    background-color: #fff;
+
     
 }
-.navbar1 .one {
+option {
+    padding: 10px 25px;
+}
+option :hover {
+color: rgba(244, 231, 231, 0.533);
+}
+.navbar1 .one { 
     display: flex;
     justify-content: space-between;
     align-items: top;
+    
+}
+.navbar1.one li{
+    margin-right: 10px;
 }
 li.help button.help-center a {
     display: block;

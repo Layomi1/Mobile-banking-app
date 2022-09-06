@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="font-/css6/all.css">
+    <link rel="stylesheet" href="font-6/css/all.css">
     <link rel="stylesheet" href="style.css">
     <title>Gtbank mobile banking app</title>
 </head>
@@ -21,39 +21,40 @@
                  <li><form action=""> 
                     <label for="countries"></label>
                     <select name="countries" id="countries">
-                        <option value="Cote D'ivoire"><img src="" alt="flag">Cote D'ivoire</option>
-                        <option value="Gambia"><img src="" alt="flag">Gambia</option>
-                        <option value="Ghana"><img src="" alt="flag">Ghana</option>
-                        <option value="kenya"><img src="" alt="flag">Kenya</option>
-                        <option value="Liberia"><img src="" alt="flag">Liberia</option>
-                        <option value="Rwanda"><img src="" alt="flag">Rwanda</option>
-                        <option value="Sierra Leone"><img src="" alt="flag">Sierra Leone</option>
-                        <option value="Tanzania"><img src="" alt="flag">Tanzania</option>
-                        <option value="Uganda"><img src="" alt="flag">Uganda</option>
-                        <option value="United Kingdom"><img src="" alt="flag">United Kingdom</option>
+                        <option value="Cote D'ivoire">Cote D'ivoire</option>
+                        <option value="Gambia">Gambia</option>
+                        <option value="Ghana">Ghana</option>
+                        <option value="kenya">Kenya</option>
+                        <option value="Liberia">Liberia</option>
+                        <option value="Nigeria">Nigeria</option>
+                        <option value="Rwanda">Rwanda</option>
+                        <option value="Sierra Leone">Sierra Leone</option>
+                        <option value="Tanzania">Tanzania</option>
+                        <option value="Uganda">Uganda</option>
+                        <option value="United Kingdom">United Kingdom</option>
                     </select>
                     <br>
                  </form> 
                 <!-- locate -->
-                <li>
+                <li class="locate">
                     <div class="dropdown">
-                         <button onclick="myFunction()" class="Locate">Locate<i>down arrow</i> 
+                         <button onclick="myFunction()" class="Locate">Locate<i class="fa-sharp fa-solid fa-angle-down"></i>
                         </button>
                         <div id="myDropdown" class="dropdown-content"> 
-                            <a href="#Locate a Bank">icon bank Locate a Bank</a> 
-                            <a href="#Locate an ATM">icon bank Locate an ATM</a> 
+                            <a href="#Locate a Bank"><i class="fa-sharp fa-solid fa-building-columns"></i> Locate a Bank</a> 
+                            <a href="#Locate an ATM"><i class="fa-sharp fa-solid fa-money-check-dollar"></i> Locate an ATM</a> 
                         </div>
 
                     </div>
             
                 <!-- Media -->
-                <li><a href="Media">Media</a></li>
+                <li class="med"><a href="Media">Media</a></li>
                  
                 <!-- help center -->
                  
-                 <li>
+                 <li class="help">
                     <div class="dropdown">
-                        <button onclick="myFunction()" class="help-center">Help-center<i>down arrow</i>
+                        <button onclick="myFunction()" class="help-center">Help-center<i class="fa-sharp fa-solid fa-angle-down"></i>
                         </button>
                         <div id="myDropdown" class="dropdown-content">
                             <a href="#Complaints & Enquiries">Complaints & Enquiries</a>
@@ -71,27 +72,23 @@
                     
 
                 <!-- security -->
-                <li><a href="_blank"> Security</a></li>
+                <li class="secure"><a href="_blank"> Security</a></li>
                 <!-- search -->
-                <li><i>search icon</i></li>
+                <li><i class="fa-light fa-magnifying-glass"></i></li>
                 <!-- online Banking login -->
-                <li>
+                <li class="online">
                     <div class="dropdown">
-                        <button onclick="myFunction()" class="Online-Banking-login">Online Banking Login<i>down arrow</i>
+                        
+                        <button onclick="myFunction()" class="Online-Banking-login">Login<i class="fa-light fa-greater-than"></i>
                         </button>
                         <div id="myDropdown" class="dropdown-content">
-                            <a href="#Personal">Personal</a>
-                            <a href="#Business">Business</a>
+                            <a href="#Personal">Personal</a><span><a href="#Business">Business</a></span>
+                            
                             <button class="login">Login</button>
                             <a href="#Register">Register</a>
                             <a href="#Demo">Demo</a>
-                    
                         </div>
-                    
                     </div>
-
-                    <h3>Online Banking Login <i>less than arrow</i> 
-                </h3></li>
             </ul>
                                 
         </section>
@@ -102,11 +99,11 @@
         <ul>
             <li> <a href="_blank">Personal</a> 
                 <ul>
-                    <li>Accounts</li>
+                    <li>Accounts<i class="fa-sharp fa-solid fa-less-than"></i></li>
                     <ul>
-                        <li>Current Accounts</li><i></i>
+                        <li>Current Accounts<i class="fa-sharp fa-solid fa-less-than"></i></li>
                         <ul class="info">
-                            <li>Individual Current Account</li>
+                            <li>Individual Current Account<i class="fa-sharp fa-solid fa-less-than"></i></li>
                             <li>e-Acounts</li>
                             <li>Domiciliary Account</li>
                             <li>GTMax</li>
